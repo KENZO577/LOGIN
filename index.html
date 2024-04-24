@@ -15,14 +15,15 @@
       background-image: url('https://s-media-cache-ak0.pinimg.com/originals/65/4d/94/654d946e7b573c0b3cc9f91cc276326d.gif'); 
       background-size: cover;
       background-repeat: no-repeat; }
-
-    div.transbox {
-        margin: auto;
-        border: 2px solid white;
-        opacity: 20;
-        height: 325px;
-        width: 900px;
-          }   
+      
+      form {
+ 	    background:#247; 
+      width:320px;
+      margin:30px auto;
+      border-radius:0.4em;
+      overflow:hidden;
+      position:relative;
+                        }
       
     </style>
     
@@ -43,24 +44,24 @@
         <form method="post" action="">  
         <h2>Login</h2>
           
-        <label for="User Email">User Email:</label>
-        <input type="text" id="user email" name="user email" required>
+        <p><label for="User Email">User Email:</label>
+          <input type="text" id="user email" name="user email" required></p>
           
           <br></br>
           
-          <br> <label for="User Name">User Name:</label>
-          <input type="text" id="User Name" name="User Name" required> </br>
+          <p> <label for="User Name">User Name:</label>
+          <input type="text" id="User Name" name="User Name" required> </p>
           
           <br></br>
           
-        <br> <label for="password">Password:</label>
-          <input type="password" id="password" name="password" required> </br>
+        <p><label for="password">Password:</label>
+          <input type="password" id="password" name="password" required></p>
           
                     <br></br>
 
-         <input type="checkbox" name="Remember Me”
-           value="checkbox" checked>       
-          
+<p>
+    <input type="checkbox" name="remember" id="remember">
+    <label for="remember">Remember me</label>
         <input type="submit" value="Submit">
         <input type="reset" name="Submit2" value="Reset">
           
@@ -69,6 +70,4 @@
       </div>
           
       </div>
-
-          
           
