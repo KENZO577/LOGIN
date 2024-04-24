@@ -1,15 +1,1 @@
- body {
-      font-family: 'Courier New', monospace;
-      color: white;
-      text-align: center;
-      background-image: url('https://s-media-cache-ak0.pinimg.com/originals/65/4d/94/654d946e7b573c0b3cc9f91cc276326d.gif'); 
-      background-size: cover;
-      background-repeat: no-repeat; }
 
-    div.transbox {
-        margin: auto;
-        border: 2px solid white;
-        opacity: 20;
-        height: 325px;
-        width: 900px;
-          }    
